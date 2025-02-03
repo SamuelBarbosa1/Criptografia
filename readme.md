@@ -42,18 +42,21 @@ go run main.go decrypt /home/samuel/meus_arquivos
 Esse código agora protege os arquivos de forma eficiente e pode ser usado no Windows e Linux
 
 ## Exemplo para criptografado e trancado
+```
 PS D:\samuel\ALL\TUDO EM GOLANG\Criptografia> go run main.go crypto.go encrypt D:\samuel\BotTigrinho
 Digite a senha: s@ltForExtraSecurity!
 Diretório criptografado e trancado com sucesso!
+```
 
 ![alt text](image.png)
 ![alt text](image-1.png)
 
 ## Exemplo para descriptografia e destrancado
+```
 PS D:\samuel\ALL\TUDO EM GOLANG\Criptografia> go run main.go crypto.go decrypt  D:\samuel\BotTigrinho
 Digite a senha: s@ltForExtraSecurity!
 Diretório descriptografado e destrancado com sucesso!
-
+```
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
