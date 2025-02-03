@@ -65,5 +65,4 @@ func generateKey(password string) []byte {
 	return argon2.IDKey([]byte(password), salt, 1, 64*1024, 4, 32)
 }
 ````
-=======
->>>>>>> 94e067daa5acfe5d3ca00303b82753efef2ca6b2
+
